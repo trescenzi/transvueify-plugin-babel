@@ -16,4 +16,4 @@ Then add it to your `transvueify.config.json`
 ```
 
 Make sure to set up your `.babelrc` to include the babel presets and plugins you'd like
-as `transvueify-plugin-babel` respects your `babelrc`.
+as `transvueify-plugin-babel` respects your `.babelrc`(s).
