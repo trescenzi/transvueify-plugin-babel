@@ -6,6 +6,5 @@ module.exports = function(compiledVueFile) {
   }
   const babelOutput = babel.transform(compiledVueFile.script.content);
   compiledVueFile.script.content = babelOutput.code;
-  console.log(babelOutput.code);
   return compiledVueFile;
-}
+};
